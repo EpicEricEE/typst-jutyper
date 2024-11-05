@@ -1,0 +1,12 @@
+[package]
+name = "jutyper"
+version = "0.1.0"
+entrypoint = "src/lib.typ"
+compiler = "0.12.0"
+authors = ["Eric Biedert"]
+repository = "https://github.com/EpicEricEE/typst-jutyper"
+license = "MIT"
+description = "Renderer for Jupyter notebooks."
+exclude = ["assets", "tests"]
+categories = ["visualization", "integration", "report"]
+keywords = ["python", "ipython", "ipynb", "jupyter", "notebook"]
